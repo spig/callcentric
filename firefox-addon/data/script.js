@@ -20,7 +20,6 @@ xhr.onreadystatechange = function() {
 xhr.overrideMimeType("text/xml");
 xhr.send();
 
-
 /*
 $("a[href^='https://my.callcentric.com/click2dial.php?dial_number']")
 

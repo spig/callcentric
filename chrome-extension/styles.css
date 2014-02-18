@@ -1,10 +1,8 @@
 #phonebook {
   border: 1px solid red;
 }
-
 .inPhonebook {
   color: #999; /* mute the colors a little */
-}
-.inPhonebook img {
-  float: right;
+  padding-right: 18px;
+  background: url('chrome-extension://__MSG_@@extension_id__/phonebook-small.png') no-repeat center right;
 }

@@ -1,0 +1,9 @@
+{
+  "name": "callcentric-calls-phonebook-matchup",
+  "title": "Callcentric Recent Calls Phonebook Matchup",
+  "id": "jid1-eExYyPAly8fFbQ",
+  "description": "Show which entries in the recently called list are already in the Callcentric phonebook.",
+  "author": "Relli Software, LLC",
+  "license": "MPL 2.0",
+  "version": "1.0"
+}
