@@ -4,7 +4,5 @@
 
 .inPhonebook {
   color: #999; /* mute the colors a little */
-}
-.inPhonebook img {
-  float: right;
+  padding-right: 18px;
 }
