@@ -8,7 +8,12 @@ xhr.onload = function() {
   var uniqPhoneNumbers = {};
   phoneNumbers.forEach(function(val) { uniqPhoneNumbers[val] = val; });
   Object.keys(uniqPhoneNumbers).forEach(function(phoneNumber) {
-    $("a[href*='dial_number1="+phoneNumber+"']").addClass("inPhonebook");
+    var nodes = document.querySelectorAll("a[href*='dial_number1="+phoneNumber+"']")
+    for (var i=0; i<nodes.length; i++) {
+      var item = nodes[i];  // Calling myNodeList.item(i) isn't necessary in JavaScript
+      item.classList.add("inPhonebook");
+    }
+    // $("a[href*='dial_number1="+phoneNumber+"']").addClass("inPhonebook");
   });
 };
 

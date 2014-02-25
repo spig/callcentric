@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Callcentric Recent Calls Phonebook Matchup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Show which entries in the recently called list are already in the Callcentric phonebook.",
   "permissions": [
     "https://my.callcentric.com/"
@@ -20,7 +20,7 @@
         "https://my.callcentric.com/home.php"
       ],
       "css": ["styles.css"],
-      "js": ["jquery.min.js", "script.js"]
+      "js": ["script.js"]
     }
   ]
 }

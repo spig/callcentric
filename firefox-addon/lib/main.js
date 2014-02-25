@@ -14,9 +14,7 @@ var data = self.data;
 // The script replaces the page contents with a message
 pageMod.PageMod({
   include: ["https://my.callcentric.com/calls_made.php", "https://my.callcentric.com/calls_received.php", "https://my.callcentric.com/home.php"],
-  contentScriptFile: [data.url("jquery.min.js"), data.url("script.js")],
-  //contentScript: 'document.body.innerHTML = ' +
-  //               ' "<h1>Page matches ruleset</h1>";',
+  contentScriptFile: data.url("script.js"),
   contentStyleFile: data.url("styles.css"),
   // contentStyle is built dynamically here to include an absolute URL
   // for the file referenced by this CSS rule.
