@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Callcentric Recent Calls Phonebook Matchup",
   "short_name": "Callcentric Phone Match",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Show which entries in the recently called list are already in the Callcentric phonebook.",
   "permissions": [
     "https://my.callcentric.com/"
@@ -16,9 +16,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://my.callcentric.com/calls_received.php",
-        "https://my.callcentric.com/calls_made.php",
-        "https://my.callcentric.com/home.php"
+        "https://my.callcentric.com/calls_received*",
+        "https://my.callcentric.com/calls_made*",
+        "https://my.callcentric.com/home*"
       ],
       "css": ["styles.css"],
       "js": ["script.js"]

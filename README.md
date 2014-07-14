@@ -8,7 +8,21 @@ This is a site to keep track of browser extensions that augment the Callcentric 
 
 The Google Chrome Extension can be found at https://chrome.google.com/webstore/detail/callcentric-recent-calls/cgomdgoelkgkdhegmapgjfabcggphjgo.
 
-The Firefox Extension can be found at https://addons.mozilla.org/en-US/firefox/addon/callcentric-recent-calls-ph/
+The Firefox Add-On can be found at https://addons.mozilla.org/en-US/firefox/addon/callcentric-recent-calls-ph/
+
+## Howto Run the Extension and Add-On
+In Chrome simply enable developer mode and choose the "Load unpacked extension..." button, selecting the chrome extension folder.
+
+For Firefox make sure that the cfx tool is installed and either run `cfx run` or install the [Extension Auto-Installer](https://addons.mozilla.org/en-US/firefox/addon/autoinstaller/) and then something like `while true; do cfx xpi ; wget --post-file=callcentric-calls-phonebook-matchup.xpi http://localhost:8888/ ; sleep 5 ; done` or one could use [Grunt](http://gruntjs.com/) and [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) to watch for changes in the add-on folder and run the cfx and wget commands.
+
+## Howto Package the Extension and Add-On
+
+### Packaging the Chrome Extension
+1. Upload to [Google Web Store](https://chrome.google.com/webstore/developer/dashboard) after registering.
+
+### Packaging the Firefox Extension
+1. From the command line run `cfx xpi`
+2. Upload to Mozilla Add-On Hub
 
 ## Future
 Any ideas? I've currently scratched my itch.

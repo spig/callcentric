@@ -13,7 +13,7 @@ var data = self.data;
 // It will run a script whenever a ".org" URL is loaded
 // The script replaces the page contents with a message
 pageMod.PageMod({
-  include: ["https://my.callcentric.com/calls_made.php", "https://my.callcentric.com/calls_received.php", "https://my.callcentric.com/home.php"],
+  include: ["https://my.callcentric.com/calls_made*", "https://my.callcentric.com/calls_received*", "https://my.callcentric.com/home*"],
   contentScriptFile: data.url("script.js"),
   contentStyleFile: data.url("styles.css"),
   // contentStyle is built dynamically here to include an absolute URL
