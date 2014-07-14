@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Callcentric Recent Calls Phonebook Matchup",
-  "short_name": "Callcentric Phone Match",
-  "version": "1.0.6",
-  "description": "Show which entries in the recently called list are already in the Callcentric phonebook.",
+  "name": "Callcentric Phonebook Call Indicator",
+  "short_name": "Callcentric Phonebook Call Indicator",
+  "version": "1.0.7",
+  "description": "Show which entries in the recently called and received lists are already in the Callcentric phonebook.",
   "permissions": [
     "https://my.callcentric.com/"
   ],

@@ -18,11 +18,12 @@ For Firefox make sure that the cfx tool is installed and either run `cfx run` or
 ## Howto Package the Extension and Add-On
 
 ### Packaging the Chrome Extension
-1. Upload to [Google Web Store](https://chrome.google.com/webstore/developer/dashboard) after registering.
+1. Follow instructions at [developer.chrome.com](https://developer.chrome.com/webstore/publish)
+2. Zip file can be created by running `zip *` in the chrome extension folder
 
 ### Packaging the Firefox Extension
 1. From the command line run `cfx xpi`
-2. Upload to Mozilla Add-On Hub
+2. Upload to [Mozilla Add-On Developer Hub](https://addons.mozilla.org/en-US/developers/addons)
 
 ## Future
 Any ideas? I've currently scratched my itch.
